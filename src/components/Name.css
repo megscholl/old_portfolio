@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Tajawal:200');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.image-medium {
+  max-width: 25%;
+  min-width: 200px;
+}
+
+.name {
+  font-family: 'Tajawal', sans-serif;
+  font-size: 65px;
+  color: #222;
+}
+
+h2 {
+  font-family: 'Tajawal', sans-serif;
+  font-size: 18px;
+  color: #222;
+}

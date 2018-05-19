@@ -1,0 +1,58 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color:#FBD2D7;
+  height: 430px;
+  padding: 20px;
+  color: #222;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.arrow {
+  float: right;
+  margin: 2rem;
+  padding-right: 12rem;
+  width: 10%;
+  position: relative;
+  -webkit-animation-name: down;  /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 3s;  /* Safari 4.0 - 8.0 */    
+  -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-fill-mode: backwards; /* Safari 4.0 - 8.0 */
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-name: down;
+  animation-duration: 2s;    
+  animation-delay: 3s;
+  animation-fill-mode: backwards;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes down {
+  to {top: 0px;}
+  from {top: 50px;}
+}
+
+@keyframes down {
+  from {top: 0px;}
+  to {top: 50px;}
+}
