@@ -5,7 +5,7 @@ class Nav extends Component {
     render() {
         return(
             <nav>
-                <span href="#" className="links" alt="">design &amp; dev</span> &nbsp;&nbsp;&nbsp; <span href="#" className="links" alt="">about me</span> 
+                <span href="#" className="links" alt="">design &amp; dev</span> &nbsp;&#124;&nbsp; <span href="#" className="links" alt="">about me</span> 
             </nav>
         );
     }

@@ -56,3 +56,73 @@
   from {top: 0px;}
   to {top: 50px;}
 }
+
+
+/* RESPONSIVE FOR CELLULAR DEVICES */
+@media screen and (max-width: 600px) {
+
+  .arrow {
+    float: right;
+    margin: 2rem;
+    padding-right: 30%;
+    width: 20%;
+    position: relative;
+    -webkit-animation-name: down;  /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 3s;  /* Safari 4.0 - 8.0 */    
+    -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-fill-mode: backwards; /* Safari 4.0 - 8.0 */
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-name: down;
+    animation-duration: 2s;    
+    animation-delay: 3s;
+    animation-fill-mode: backwards;
+  }
+
+}
+
+/* RESPONSIVE FOR IPAD */
+@media screen and (max-width: 768px) {
+
+      .arrow {
+        float: right;
+        margin: 2rem;
+        padding-right: 40%;
+        width: 10%;
+        position: relative;
+        -webkit-animation-name: down;  /* Safari 4.0 - 8.0 */
+        -webkit-animation-duration: 3s;  /* Safari 4.0 - 8.0 */    
+        -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+        -webkit-animation-fill-mode: backwards; /* Safari 4.0 - 8.0 */
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-name: down;
+        animation-duration: 2s;    
+        animation-delay: 3s;
+        animation-fill-mode: backwards;
+      }
+
+}
+
+/* RESPONSIVE FOR IPAD PRO */
+@media screen and (max-width: 1024px) {
+
+  .arrow {
+    float: right;
+    margin: 2rem;
+    padding-right: 40%;
+    width: 12%;
+    position: relative;
+    -webkit-animation-name: down;  /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 3s;  /* Safari 4.0 - 8.0 */    
+    -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-fill-mode: backwards; /* Safari 4.0 - 8.0 */
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-name: down;
+    animation-duration: 2s;    
+    animation-delay: 3s;
+    animation-fill-mode: backwards;
+  }
+
+}
