@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import Name from './Name';
-// import Title from './Title';
-// import Picture from './Picture';
-import Arrow from './images/arrow_2.png';
+import DevDesign from './DevDesign';
+import Arrow from './images/down_arrow.png';
 import './App.css';
 
 class App extends Component {
@@ -14,6 +13,20 @@ class App extends Component {
         </div>
         <main>
           <img src={Arrow} alt="down arrow" className="arrow"/>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <DevDesign />
         </main>
       </div>
     );
