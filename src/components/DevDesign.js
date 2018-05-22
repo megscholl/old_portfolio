@@ -9,9 +9,9 @@ class DevDesign extends Component {
         return(
           <div>
             <h5 className="header-left" id="designdev">design & development</h5>
-            <img src={Reso} alt="screen shot of Reso by Meg Scholl" className="image-medium"/>
+            <img src={Reso} alt="screen shot of Reso by Meg Scholl" className="image-examples"/>
             <p>this is reso</p>
-            <img src={Tend} alt="screen shot of Tend by Meg Scholl" className="image-medium"/>
+            <img src={Tend} alt="screen shot of Tend by Meg Scholl" className="image-examples"/>
             <p>this is tend</p>
             <img src={vs} alt="UX vs UI diagram" className="image-large"/>
           </div>
