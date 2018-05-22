@@ -6,10 +6,24 @@
 }
 
 .image-medium {
+  
+  background-image: url('./images/mesnap.jpg');
   max-width: 25%;
-  min-width: 320px;
-  border-radius: 45px;
+  min-width: 420px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  height: 420px;
+  border-radius: 300px;
+  border: 8px solid white;
 }
+
+.image-examples {
+  max-width: 25%;
+  min-width: 240px;
+  border-radius: 35px;
+}
+
 .image-large {
   max-width: 45%;
   min-width: 370px;
