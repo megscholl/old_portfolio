@@ -3,8 +3,19 @@
 
 h5 {
     font-family: 'Tajawal', sans-serif;
-    font-size: 22px;
+    font-size: 32px;
     color: #222;
-    text-align: center;
-    
+    text-align: center;    
+}
+
+
+.header-left{
+    padding-top: 2.5rem;
+    text-align: left;
+    margin-left: 20%;
+}
+
+.header-right {
+text-align: right;
+margin-right: 20%;
 }

@@ -23,11 +23,15 @@
   font-size: large;
 }
 
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
 
+
+/**//**//**//**//**//**/
+ /* ARROW ANIMATION */
 .arrow {
   float: right;
   margin: 2rem;
@@ -57,7 +61,7 @@
   to {top: 50px;}
 }
 
-
+/**//**//**//**//**//**//**//**//**/
 /* RESPONSIVE FOR CELLULAR DEVICES */
 @media screen and (max-width: 600px) {
 
@@ -87,8 +91,9 @@
       .arrow {
         float: right;
         margin: 2rem;
+        padding-top: 7.2rem;
         padding-right: 40%;
-        width: 10%;
+        width: 8%;
         position: relative;
         -webkit-animation-name: down;  /* Safari 4.0 - 8.0 */
         -webkit-animation-duration: 3s;  /* Safari 4.0 - 8.0 */    
