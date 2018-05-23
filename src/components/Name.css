@@ -17,8 +17,8 @@
 }
 
 .image-examples {
-  max-width: 35%;
-  min-width: 240px;
+  max-width: 600px;
+  min-width: 140px;
   border-radius: 30px;
 }
 
@@ -51,5 +51,61 @@ h2 {
     height: 200px;
     border-radius: 200px;
     border: 2px solid white;
+  }
+
+  .image-examples {
+    max-width: 400px;
+    min-width: 140px;
+    border-radius: 30px;
+  }
+
+  .image-large {
+    max-width: 90%;
+    min-width: 35%;
+    border-radius: 35px;
+    margin-top: 10rem;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .image-medium {
+    background-image: url('./images/mesnap.jpg');
+    height: 400px;
+    max-width: 40%;
+    min-width: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 200px;
+    border: 2px solid white;
+  }
+
+  .image-examples {
+    max-width: 300px;
+    min-width: 140px;
+    border-radius: 30px;
+  }
+
+  .image-large {
+    max-width: 90%;
+    min-width: 35%;
+    border-radius: 35px;
+    margin-top: -8rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+
+  .image-examples {
+    max-width: 300px;
+    min-width: 140px;
+    border-radius: 30px;
+  }
+
+  .image-large {
+    max-width: 70%;
+    min-width: 35%;
+    border-radius: 35px;
+    margin-top: -8rem;
   }
 }

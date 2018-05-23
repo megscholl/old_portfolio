@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Name from './Name';
 import DevDesign from './DevDesign';
 import Inspirations from './Inspirations';
+import Footer from './Footer';
 import Arrow from './images/down_arrow.png';
 import './App.css';
 
@@ -17,6 +18,7 @@ class App extends Component {
           <br />
           <DevDesign />
           <Inspirations />
+          <Footer />
         </main>
       </div>
     );
