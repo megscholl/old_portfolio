@@ -12,7 +12,7 @@ class Name extends Component {
                 <div>
                     <Nav />
                 </div>
-                <div className="App ">
+                <div className="App">
                     <header className="App-header"><span className="name">{this.props.name}</span>
                     
                     <Title />

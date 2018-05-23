@@ -8,14 +8,26 @@ h5 {
     text-align: center;    
 }
 
+.top-margin {
+    margin-top: 12%;
+}
 
 .header-left{
     padding-top: 2.5rem;
     text-align: left;
-    margin-left: 20%;
+    margin-left: 10%;
 }
 
 .header-right {
 text-align: right;
-margin-right: 20%;
+margin-right: 14%;
+}
+
+.flexbox-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    height: 400px;
+    margin-right: 3rem;
+    margin-left: 3rem;
 }
