@@ -25,9 +25,8 @@ margin-right: 14%;
 
 .flexbox-container {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-between;
     height: 400px;
-    margin-right: 3rem;
-    margin-left: 3rem;
+    margin: auto;
 }

@@ -1,11 +1,21 @@
 import React, { Component } from 'react';
+import './Footer.css';
+import LinkedIn from './images/linkedin.png';
+import Github from './images/github.png';
+import Email from './images/email.png';
 
 class Footer extends Component {
     render() {
         return(
-            <Footer className="footer">
-            this is the footer
-            </Footer>
+            <div>
+                <footer className="footer">
+                    <center className="footer-text footer-flex-container">
+                        <a href="https://www.linkedin.com/in/megscholl" target="_blank" rel="noopener noreferrer" alt="meg scholl's linked in profile" title="meg scholl's linked in profile"><img src={LinkedIn} alt="linked in icon" className="footer-icons"/></a>
+                        <a href="https://www.linkedin.com/in/meg-scholl" target="_blank" rel="noopener noreferrer" alt="meg scholl's linked in profile" title="meg scholl's linked in profile"><img src={Github} alt="github icon" className="footer-icons"/></a>
+                        <a href="mailto:meghan.e.scholl@gmail.com" target="_blank" rel="noopener noreferrer" alt="send meg scholl an email" title="send meg scholl an email"><img src={Email} alt="email icon" className="footer-icons"/></a>
+                    </center>
+                </footer>
+            </div>
         )
     }
 }

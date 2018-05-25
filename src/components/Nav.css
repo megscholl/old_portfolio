@@ -12,18 +12,7 @@ nav {
 .links:hover {
     cursor: pointer;
     color: #FBD2D7;
-    font-weight: bold;
-    text-decoration: dashed #222;
-}
-
-.transparent-img {
-    -webkit-transition: opacity 0.3s linear; 
-    -moz-transition: opacity 0.3s linear;
-    -o-transition: opacity 0.3s linear;
-    
-    transition: opacity 0.3s linear;
-    display: block;
-    margin: auto;
+    font-weight: bolder;
 }
 
 @media screen and (max-width: 768px) {
