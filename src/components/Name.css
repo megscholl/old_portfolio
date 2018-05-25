@@ -16,13 +16,6 @@
   border: 2px solid white;
 }
 
-.image-large {
-  max-width: 55%;
-  min-width: 35%;
-  border-radius: 35px;
-  margin-top: 5rem;
-}
-
 .name {
   font-family: 'Tajawal', sans-serif;
   font-size: 65px;
