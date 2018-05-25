@@ -14,11 +14,10 @@ class Name extends Component {
                 </div>
                 <div className="App">
                     <header className="App-header"><span className="name">{this.props.name}</span>
-                    
+
                     <Title />
                     <br />
                     <Picture />
-
                     </header>
                 </div>
           </div>

@@ -16,12 +16,6 @@
   border: 2px solid white;
 }
 
-.image-examples {
-  max-width: 600px;
-  min-width: 140px;
-  border-radius: 30px;
-}
-
 .image-large {
   max-width: 55%;
   min-width: 35%;
@@ -53,12 +47,6 @@ h2 {
     border: 2px solid white;
   }
 
-  .image-examples {
-    max-width: 400px;
-    min-width: 140px;
-    border-radius: 30px;
-  }
-
   .image-large {
     max-width: 90%;
     min-width: 35%;
@@ -80,12 +68,6 @@ h2 {
     border: 2px solid white;
   }
 
-  .image-examples {
-    max-width: 300px;
-    min-width: 140px;
-    border-radius: 30px;
-  }
-
   .image-large {
     max-width: 90%;
     min-width: 35%;
@@ -95,13 +77,6 @@ h2 {
 }
 
 @media screen and (max-width: 1024px) {
-
-  .image-examples {
-    max-width: 300px;
-    min-width: 140px;
-    border-radius: 30px;
-  }
-
   .image-large {
     max-width: 70%;
     min-width: 35%;
