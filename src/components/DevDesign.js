@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import vs from './images/ux_vs_ui.png';
 import Reso from './Reso';
 import Tend from './Tend';
 import './DevDesign.css';
@@ -14,9 +13,6 @@ class DevDesign extends Component {
               <Tend />
             </center>
 
-            <br />
-
-            <center><img src={vs} alt="UX vs UI diagram" className="image-large"/></center>
           </div>
         )
     }
