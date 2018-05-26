@@ -14,17 +14,3 @@ nav {
     color: #FBD2D7;
     font-weight: bolder;
 }
-
-@media screen and (max-width: 768px) {
-
-    nav {
-        font-family: 'Tajawal', sans-serif;
-        font-size: 18px;
-        color: #222;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        padding: .5rem;
-    }
-
-}

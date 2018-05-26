@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Reso from './Reso';
 import Tend from './Tend';
-import './DevDesign.css';
 
 class DevDesign extends Component {
     render() {

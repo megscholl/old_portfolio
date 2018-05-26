@@ -16,6 +16,7 @@
   border: 2px solid white;
 }
 
+
 .name {
   font-family: 'Tajawal', sans-serif;
   font-size: 65px;
@@ -26,54 +27,4 @@ h2 {
   font-family: 'Tajawal', sans-serif;
   font-size: 18px;
   color: #222;
-}
-
-@media screen and (max-width: 450px) {
-  .image-medium {
-    background-image: url('./images/mesnap.jpg');
-    max-width: 20%;
-    min-width: 200px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 200px;
-    border-radius: 200px;
-    border: 2px solid white;
-  }
-
-  .image-large {
-    max-width: 90%;
-    min-width: 35%;
-    border-radius: 35px;
-    margin-top: 10rem;
-  }
-}
-
-
-@media screen and (max-width: 768px) {
-  .image-medium {
-    background-image: url('./images/mesnap.jpg');
-    height: 400px;
-    max-width: 40%;
-    min-width: 400px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 200px;
-    border: 2px solid white;
-  }
-
-  .image-large {
-    max-width: 90%;
-    min-width: 35%;
-    border-radius: 35px;
-    margin-top: -8rem;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .image-large {
-    max-width: 70%;
-    min-width: 35%;
-    border-radius: 35px;
-    margin-top: -8rem;
-  }
 }
