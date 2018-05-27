@@ -10,8 +10,8 @@
 
 .App-header {
   background-image: linear-gradient(0deg, rgb(251, 210, 215, .8), rgb(251, 210, 215, .2)), url('images/mountains.jpg');
-  height: 35%;
-  padding: 20px;
+  /* height: 35%; */
+  /* padding: 0px; */
   color: #222;
 }
 
