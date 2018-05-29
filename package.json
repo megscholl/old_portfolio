@@ -7,6 +7,7 @@
     "react": "^16.3.2",
     "react-bootstrap": "^0.32.1",
     "react-dom": "^16.3.2",
+    "react-pinterest": "^1.2.0",
     "react-scripts": "1.1.4",
     "reactstrap": "^6.0.1"
   },
