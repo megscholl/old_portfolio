@@ -3,6 +3,7 @@ import Name from './Name';
 import DevDesign from './DevDesign';
 import Inspirations from './Inspirations';
 import Footer from './Footer';
+import AboutMe from './AboutMe';
 import Arrow from './images/down_arrow.png';
 import './MediaQueries.css';
 import './App.css';
@@ -18,6 +19,7 @@ class App extends Component {
           <img src={Arrow} alt="down arrow" className="arrow"/>
           <br />
           <center><DevDesign /></center>
+          <AboutMe />
           <Inspirations />
           <Footer />
         </main>
