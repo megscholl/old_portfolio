@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Footer.css';
-import LinkedIn from './images/linkedin.png';
+import LinkedIn from './linkedin.png';
 import Github from './images/github.png';
 import Email from './images/email.png';
 
