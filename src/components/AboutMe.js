@@ -8,7 +8,7 @@ class AboutMe extends Component {
             <div className="wrap-text-center">
              <h5 className="header-center readmore-box">About Me</h5>
              <p>This is my about me :P :D This is my about me :P :D This is my about me :P :D This is my about me :P :D This is my about me :P :D This is my about me :P :D This is my about me :P :D </p>
-             <p class="read-more"><a href="" class="button">Read More</a></p>
+             <p className="read-more"><a href="" className="button">Read More</a></p>
             </div>
         )
     }
