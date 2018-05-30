@@ -32,7 +32,7 @@ h5 {
 }
 
 .wrap-text{
-    width: 45%;
+    width: 55%;
     font-family: 'Tajawal', sans-serif;
     font-size: 20px;
     padding-top: .6rem;
@@ -41,7 +41,7 @@ h5 {
 }
 
 .wrap-text-center {
-    width: 45%;
+    width: 55%;
     font-family: 'Tajawal', sans-serif;
     font-size: 20px;
     padding-top: .6rem;
@@ -67,10 +67,19 @@ h5 {
     margin-top: 13rem;
 }
 
+.center {
+    text-align: right;
+    font-size: 22px;
+}
+/* 
+.about-me-border {
+    border: thin solid #222;
+    padding: 2rem;
+} */
 
 .flexbox-container {
     display: flex;
-    margin-left: 10%;
+    /* margin-left: 10%; */
 }
 
 .zoom {
@@ -83,7 +92,6 @@ h5 {
     -webkit-transform: scale(1.1); /* Safari 3-8 */
     transform: scale(1.1); 
 }
-
 
 
 .readmore-box {
@@ -99,4 +107,19 @@ h5 {
     width: 55%; 
     text-align: center; 
     margin: 0; padding: 30px 0; 
+}
+
+
+.project-links {
+    color: #222;
+    text-decoration: dotted underline;
+}
+
+
+
+.links:hover,
+.project-links:hover {
+    cursor: pointer;
+    color: #FBD2D7;
+    font-weight: bolder;
 }
