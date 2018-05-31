@@ -1,13 +1,38 @@
 import React, { Component } from 'react';
+import './Hexagon.css';
 // import { PinterestBoardWidget } from 'react-pinterest';
 
 class Inspirations extends Component {
     render() {
         return(
             <div>
-                <h5 className="header-right" id="inspirations">inspirations</h5>
-                
-        <center><a alt="meg scholl pinterest coding & design board" title="pinterest coding & design board" data-pin-do="embedBoard" data-pin-board-width="1200" data-pin-scale-height="550" data-pin-scale-width="200" href="https://www.pinterest.com/iifge/coding-design/" className="pinboard"> </a></center>
+                <h5 className="header-center" id="inspirations">inspirations</h5>
+                <div className="inspirations-inline">
+                    <div className="hexagon hex-pinterest">
+                        <div className="hexTop"></div>
+                        <div className="hexBottom"></div>
+                    </div>
+                    <div className="hexagon hex-pinsiry">
+                        <div className="hexTop"></div>
+                        <div className="hexBottom"></div>
+                    </div>
+                    <div className="hexagon hex-awwwards">
+                        <div className="hexTop"></div>
+                        <div className="hexBottom"></div>
+                    </div>
+                    <div className="hexagon hex-dribbble">
+                        <div className="hexTop"></div>
+                        <div className="hexBottom"></div>
+                    </div>
+                    <div className="hexagon hex-medium">
+                        <div className="hexTop"></div>
+                        <div className="hexBottom"></div>
+                    </div>
+                    <div className="hexagon hex-behance">
+                        <div className="hexTop"></div>
+                        <div className="hexBottom"></div>
+                    </div>
+                </div>
             </div>
         )
     }
