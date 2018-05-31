@@ -1,0 +1,123 @@
+.inspirations-inline{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding-right: 10%;
+    padding-left: 10rem;
+    padding-bottom: 1rem;
+}
+
+
+  .hexagon:hover {
+    position: relative;
+    width: 100px; 
+    height: 57.74px;
+    margin: 28.87px 0;
+    margin-right: auto;
+    margin-left: auto;
+    opacity: 0.2;
+    background-size: auto 115.4701px;
+    background-position: center;
+    box-shadow: 0 0 20px rgba(0,0,0,0.6);
+    transition: .7s ease;
+    /* transform: translate(-50%, -50%); */
+    -ms-transform: translate(-50%, -50%);
+
+  }
+  .hexagon {
+    position: relative;
+
+    width: 100px; 
+    height: 57.74px;
+    margin: 28.87px 0;
+    margin-right: auto;
+    margin-left: auto;
+    background-size: auto 115.4701px;
+    background-position: center;
+    box-shadow: 0 0 20px rgba(0,0,0,0.6);
+  }
+  
+.hexTop,
+.hexBottom {
+  position: absolute;
+  z-index: 1;
+  width: 70.71px;
+  height: 70.71px;
+  overflow: hidden;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background: inherit;
+  left: 14.64px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+
+/*counter transform the bg image on the caps*/
+.hexTop:after,
+.hexBottom:after {
+  content: "";
+  position: absolute;
+  width: 100.0000px;
+  height: 57.73502691896258px;
+  -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-28.8675px);
+  -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-28.8675px);
+  transform:          rotate(45deg) scaleY(1.7321) translateY(-28.8675px);
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+  background: inherit;
+}
+
+.hexTop {
+  top: -35.3553px;
+}
+
+.hexTop:after {
+  background-position: center top;
+}
+
+.hexBottom {
+  bottom: -35.3553px;
+}
+
+.hexBottom:after {
+  background-position: center bottom;
+}
+
+.hexagon:after {
+  content: "";
+  position: absolute;
+  top: 0.0000px;
+  left: 0;
+  width: 100.0000px;
+  height: 57.7350px;
+  z-index: 2;
+  background: inherit;
+}
+
+
+  
+  .hex-pinsiry {
+    background-image: url('./images/pinspiry.jpg');
+  }
+
+  .hex-dribbble {
+    background-image: url('./images/dribbble.jpg');
+  }
+
+  .hex-medium {
+    background-image: url('./images/medium.png');
+  }
+
+  .hex-pinterest {
+    background-image: url('./images/Pinterest-Icon.png');
+  }
+
+  .hex-awwwards {
+    background-image: url('./images/awwwards.jpg');
+  }
+
+  .hex-behance {
+    background-image: url('./images/behance.png');
+  }
+

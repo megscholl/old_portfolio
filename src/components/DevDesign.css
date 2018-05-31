@@ -7,11 +7,8 @@ h5 {
     text-align: center;    
 }
 
-.top-margin {
-    margin-top: 7%;
-}
 
-.header-left{
+/* .header-left{
     padding-top: 2.5rem;
     padding-bottom: 1rem;
     text-align: left;
@@ -19,36 +16,58 @@ h5 {
 }
 
 .header-right {
+    color: #222;
     margin-top: 5rem;
     padding-bottom: 1rem;
     text-align: right;
-    margin-right: 20%;
-}
+    margin-right: 15%;
+} */
 
 .header-center {
+    color: #222;
     text-align: center;
     padding-bottom: 1rem;
-    margin-top: 5rem;
+    margin-top: 11%;
 }
 
 .wrap-text{
-    width: 55%;
+    width: 95%;
     font-family: 'Tajawal', sans-serif;
-    font-size: 20px;
+    font-size: 23px;
     padding-top: .6rem;
     text-align: left;
-    text-indent: 2rem;
+    line-height: 2rem;
+    /* text-indent: 2rem; */
 }
 
 .wrap-text-center {
     width: 55%;
     font-family: 'Tajawal', sans-serif;
-    font-size: 20px;
+    font-size: 23px;
     padding-top: .6rem;
     margin-right: auto;
     margin-left: auto;
     text-align: left;
     text-indent: 2rem;
+}
+
+.drop-cap {
+    float: left;
+    width: 0.7em;
+    font-size: 300%;
+    line-height: 80%;
+}
+
+.project-width {
+    width: 500px;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.about-columns {
+    column-count: 3;
+    column-width: 20%;
+    line-height: 2rem;
 }
 
 .image-examples {
@@ -69,7 +88,7 @@ h5 {
 
 .center {
     text-align: right;
-    font-size: 22px;
+    font-size: 23px;
 }
 /* 
 .about-me-border {
@@ -79,6 +98,8 @@ h5 {
 
 .flexbox-container {
     display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
     /* margin-left: 10%; */
 }
 

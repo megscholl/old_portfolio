@@ -5,8 +5,8 @@ import Tend from './Tend';
 class DevDesign extends Component {
     render() {
         return(
-          <div className="top-margin">
-            <h5 className="header-left" id="designdev">design & development</h5>
+          <div id="designdev" className="top-margin">
+            <h5 className="header-center" id="designdev">design & development</h5>
             <center className="flexbox-container">
               <Reso />
               <Tend />

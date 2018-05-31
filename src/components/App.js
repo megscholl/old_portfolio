@@ -18,7 +18,7 @@ class App extends Component {
         <main>
           <img src={Arrow} alt="down arrow" className="arrow"/>
           <br />
-          <center><DevDesign /></center>
+          <DevDesign />
           <AboutMe />
           <Inspirations />
           <Footer />
