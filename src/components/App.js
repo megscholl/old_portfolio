@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Name from './Name';
 import DevDesign from './DevDesign';
-// import Inspirations from './Inspirations';
+import Inspirations from './Inspirations';
 import Footer from './Footer';
 import AboutMe from './AboutMe';
 import Arrow from './images/down_arrow.png';
@@ -20,6 +20,7 @@ class App extends Component {
           <br />
           <center><DevDesign /></center>
           <AboutMe />
+          <Inspirations />
           <Footer />
         </main>
       </div>
