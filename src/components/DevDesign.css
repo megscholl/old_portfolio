@@ -7,22 +7,6 @@ h5 {
     text-align: center;    
 }
 
-
-/* .header-left{
-    padding-top: 2.5rem;
-    padding-bottom: 1rem;
-    text-align: left;
-    margin-left: 10.2%;
-}
-
-.header-right {
-    color: #222;
-    margin-top: 5rem;
-    padding-bottom: 1rem;
-    text-align: right;
-    margin-right: 15%;
-} */
-
 .header-center {
     color: #222;
     text-align: center;
@@ -38,7 +22,6 @@ h5 {
     padding-top: .6rem;
     text-align: left;
     line-height: 2rem;
-    /* text-indent: 2rem; */
 }
 
 .wrap-text-center {
@@ -49,7 +32,7 @@ h5 {
     margin-right: auto;
     margin-left: auto;
     text-align: left;
-    text-indent: 2rem;
+    /* text-indent: 2rem; */
 }
 
 .drop-cap {

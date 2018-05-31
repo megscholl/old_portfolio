@@ -5,7 +5,7 @@ class Title extends Component{
     render() {
         return (
             <div>
-                <h2>ux design & front-end development</h2>
+                <h1 className="title">ux ui web designer & front-end developer</h1>
             </div>
         );
     }
