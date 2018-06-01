@@ -9,8 +9,7 @@ class Footer extends Component {
         return(
             <div>
                 <footer className="footer">
-                <center><span>find me on linked in and github</span></center>
-                <br />
+                <center><span>this site is built with react</span></center>
                     <center className="footer-text footer-flex-container">
                         <a href="https://www.linkedin.com/in/megscholl" target="_blank" rel="noopener noreferrer" alt="meg scholl's linked in profile" title="meg scholl's linked in profile"><img src={LinkedIn} alt="linked in icon" className="footer-icons"/></a>
                         <a href="https://www.linkedin.com/in/meg-scholl" target="_blank" rel="noopener noreferrer" alt="meg scholl's linked in profile" title="meg scholl's linked in profile"><img src={Github} alt="github icon" className="footer-icons"/></a>

@@ -53,7 +53,7 @@ class Inspirations extends Component {
     render() {
         return(
             <div>
-                <h5 className="header-center" id="inspirations">inspirations</h5>
+                <h5 className="header-center-less" id="inspirations">inspirations</h5>
                 <div className="inspirations-inline">
 
                     <div onClick={ this.NavClick } className="hexagon hex-pinterest" alt="pinterest" title="pinterest" >
