@@ -6,7 +6,7 @@ class DevDesign extends Component {
     render() {
         return(
           <div id="designdev" className="top-margin">
-            <h5 className="header-center" id="designdev">design & development</h5>
+            <h5 className="header-center" id="designdev">projects I've been working on...</h5>
             <center className="flexbox-container">
               <Reso />
               <Tend />
