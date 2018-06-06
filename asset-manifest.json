@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.85ffa599.css",
-  "main.css.map": "static/css/main.85ffa599.css.map",
-  "main.js": "static/js/main.ff86be9a.js",
-  "main.js.map": "static/js/main.ff86be9a.js.map",
+  "main.css": "static/css/main.d27ba945.css",
+  "main.css.map": "static/css/main.d27ba945.css.map",
+  "main.js": "static/js/main.9ac52234.js",
+  "main.js.map": "static/js/main.9ac52234.js.map",
   "static\\media\\Pinterest-Icon.png": "static/media/Pinterest-Icon.888c5e49.png",
   "static\\media\\awwwards.jpg": "static/media/awwwards.a2c119b1.jpg",
   "static\\media\\bootstrap.jpg": "static/media/bootstrap.a83a1cec.jpg",
@@ -22,6 +22,7 @@
   "static\\media\\sass.png": "static/media/sass.a17ffd0c.png",
   "static\\media\\tend_screen.png": "static/media/tend_screen.6709fb2e.png",
   "static\\media\\vanilla.PNG": "static/media/vanilla.38c2073d.PNG",
+  "static\\media\\wyfy.PNG": "static/media/wyfy.86da1a09.PNG",
   "static\\media\\xd.png": "static/media/xd.6613bf43.png",
   "static\\media\\xtensio.png": "static/media/xtensio.9f30ece0.png"
 }
