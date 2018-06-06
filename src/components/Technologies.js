@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Hexagon.css';
 import './Technologies.css';
 
 // const TechClick = "";

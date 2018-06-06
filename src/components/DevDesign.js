@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Reso from './Reso';
 import Tend from './Tend';
+import JsPortfolio from './Portfolio';
 
 class DevDesign extends Component {
     render() {
@@ -10,6 +11,7 @@ class DevDesign extends Component {
             <center className="flexbox-container">
               <Reso />
               <Tend />
+              <JsPortfolio />
             </center>
 
           </div>

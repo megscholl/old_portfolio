@@ -4,7 +4,7 @@ import DevDesign from './DevDesign';
 import Inspirations from './Inspirations';
 import Footer from './Footer';
 import AboutMe from './AboutMe';
-import Technologies from './Technologies';
+// import Technologies from './Technologies';
 import Arrow from './images/down_arrow.png';
 import './MediaQueries.css';
 import './App.css';
@@ -19,9 +19,8 @@ class App extends Component {
         <main>
           <img src={Arrow} alt="down arrow" className="arrow"/>
           <br />
-          <DevDesign />
-          <Technologies />
           <AboutMe />
+          <DevDesign />
           <Inspirations />
           <Footer />
         </main>

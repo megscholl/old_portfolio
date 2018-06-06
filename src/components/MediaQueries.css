@@ -3,8 +3,10 @@
 /**//**//**//**//**//**//**//**//**/
 /* RESPONSIVE FOR CELLULAR DEVICES */
 
-
-@media screen and (max-width: 320px) {
+            /* ///////// //*/
+            /* // 376 PX //*/
+            /* ///////// //*/
+@media screen and (max-width: 376px) {
 
     /* images */
     .image-medium {
@@ -64,14 +66,51 @@
         text-align: left;
         text-indent: 2rem;
     }
+
+    .name {
+        font-family: 'Tajawal', sans-serif;
+        font-size: 85px;
+        color: #222;
+      }
+
+      
+    #designdev .header-center {
+        margin-top: 6rem;
+        font-size: 28px;
+    }
+
+    .tech-inline{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        padding-right: 2rem;
+        padding-left: 2rem;
+        padding-bottom: 3rem;
+    }
 }
 
-
+            /* ///////// //*/
+            /* // 415 PX //*/
+            /* ///////// //*/
 @media screen and (max-width: 415px) {
     .wrap-text{
         width: 45%;
         font-family: 'Tajawal', sans-serif;
         font-size: 14px;
+    }
+
+    .name {
+        font-family: 'Tajawal', sans-serif;
+        font-size: 85px;
+        color: #222;
+      }
+
+      
+
+    .title{
+        font-family: 'Tajawal', sans-serif;
+        font-size: 22px;
+        color: #222;
     }
 
 
@@ -115,7 +154,7 @@
         margin-right: auto;
         margin-left: auto;
         text-align: left;
-        text-indent: 2rem;
+        /* text-indent: 2rem; */
     }
     
     .about-columns {
@@ -133,8 +172,17 @@
         padding-bottom: 1rem;
     }
 
+    .tech-inline{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        /* padding-right: 10rem;
+        padding-left: 10rem; */
+        padding-bottom: 1rem;
+      }
+
     
-/* arrow */
+        /* arrow */
     .arrow {
         float: right;
         /* margin: 2rem; */
@@ -156,7 +204,9 @@
 
 }
 
-  
+            /* ///////// //*/
+            /* // 769 PX //*/
+            /* ///////// //*/
   @media screen and (max-width: 769px) {
 
     nav {
@@ -209,7 +259,7 @@
         margin-right: auto;
         margin-left: auto;
         text-align: left;
-        text-indent: 2rem;
+        /* text-indent: 2rem; */
     }
     
     .about-columns {
@@ -250,6 +300,11 @@
   
 /**//**//**//**//**//**//**//**//**/
 /* RESPONSIVE FOR TABLET DEVICES */
+
+            /* ///////// //*/
+            /* // 1024PX //*/
+            /* ///////// //*/
+
   @media screen and (max-width: 1024px) {
 
 /* images */
@@ -264,6 +319,7 @@
         margin-top: 2rem;
     }
   }
+
 
 
 

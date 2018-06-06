@@ -7,6 +7,27 @@
   padding-bottom: 1rem;
 }
 
+.reso-tech-inline {
+  float: left;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding-top: 1rem;
+  /* padding-right: 5rem; */
+   padding-left: 11%;
+  padding-bottom: 1rem;
+}
+
+.tend-tech-inline {
+  float: left;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding-top: 1rem;
+  /* padding-right: 5rem; */
+   padding-left: 28%;
+  /* padding-bottom: 1rem; */
+}
 
 .hexagon-z:hover {
   position: relative;
@@ -24,6 +45,8 @@
   -ms-transform: translate(-50%, -50%);
 
 }
+
+/* // 50 PX HEXAGONS //*/
 
 .hexagon-z {
   position: relative;
@@ -94,7 +117,83 @@
   z-index: 2;
   background: inherit;
 }
+
+
+
+/* // 30 PX HEXAGONS //*/
+
+.hexagon-y {
+  position: relative;
+  width: 30px; 
+  height: 17.32px;
+  margin: 8.66px 0;
+  margin-left: .5rem;
+  background-image: url(http://csshexagon.com/img/meow.jpg);
+  background-size: auto 34.6410px;
+  background-position: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+
+.hexTop-y,
+.hexBottom-y {
+  position: absolute;
+  z-index: 1;
+  width: 21.21px;
+  height: 21.21px;
+  overflow: hidden;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background: inherit;
+  left: 4.39px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+
+/*counter transform the bg image on the caps*/
+.hexTop-y:after,
+.hexBottom-y:after {
+  content: "";
+  position: absolute;
+  width: 30.0000px;
+  height: 17.320508075688775px;
+  -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-8.6603px);
+  -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-8.6603px);
+  transform:          rotate(45deg) scaleY(1.7321) translateY(-8.6603px);
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+  background: inherit;
+}
+
+.hexTop-y {
+  top: -10.6066px;
+}
+
+.hexTop-y:after {
+  background-position: center top;
+}
+
+.hexBottom-y {
+  bottom: -10.6066px;
+}
+
+.hexBottom-y:after {
+  background-position: center bottom;
+}
+
+.hexagon-y:after {
+  content: "";
+  position: absolute;
+  top: 0.0000px;
+  left: 0;
+  width: 30.0000px;
+  height: 17.3205px;
+  z-index: 2;
+  background: inherit;
+}
   
+
+/* // IMAGES FOR HEXAGONS //*/
   .hex-html {
 
     background-image: url('./images/html5.png');

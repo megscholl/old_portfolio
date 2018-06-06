@@ -41,9 +41,9 @@ nav {
 /**//**//**//**//**//**/
  /* ARROW ANIMATION */
 .arrow {
-  float: right;
-  margin: 2rem;
-  padding-right: 14rem;
+  /* text-align: center; */
+  margin-left: 45%;
+  margin-top: 2rem;
   width: 10%;
   position: relative;
   -webkit-animation-name: down;  /* Safari 4.0 - 8.0 */
