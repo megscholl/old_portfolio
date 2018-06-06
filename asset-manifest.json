@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.8fded09d.css",
-  "main.css.map": "static/css/main.8fded09d.css.map",
-  "main.js": "static/js/main.cff83624.js",
-  "main.js.map": "static/js/main.cff83624.js.map",
+  "main.css": "static/css/main.85ffa599.css",
+  "main.css.map": "static/css/main.85ffa599.css.map",
+  "main.js": "static/js/main.ff86be9a.js",
+  "main.js.map": "static/js/main.ff86be9a.js.map",
   "static\\media\\Pinterest-Icon.png": "static/media/Pinterest-Icon.888c5e49.png",
   "static\\media\\awwwards.jpg": "static/media/awwwards.a2c119b1.jpg",
   "static\\media\\bootstrap.jpg": "static/media/bootstrap.a83a1cec.jpg",
@@ -18,8 +18,10 @@
   "static\\media\\mesnap.jpg": "static/media/mesnap.eab30a26.jpg",
   "static\\media\\mountains.jpg": "static/media/mountains.58141c76.jpg",
   "static\\media\\photoshop.jpg": "static/media/photoshop.fe175765.jpg",
+  "static\\media\\react-port.PNG": "static/media/react-port.4459e804.PNG",
   "static\\media\\sass.png": "static/media/sass.a17ffd0c.png",
   "static\\media\\tend_screen.png": "static/media/tend_screen.6709fb2e.png",
+  "static\\media\\vanilla.PNG": "static/media/vanilla.38c2073d.PNG",
   "static\\media\\xd.png": "static/media/xd.6613bf43.png",
   "static\\media\\xtensio.png": "static/media/xtensio.9f30ece0.png"
 }
