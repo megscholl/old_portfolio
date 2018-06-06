@@ -48,6 +48,19 @@ h6 {
     line-height: 2rem;
 }
 
+.wrap-wyfy-text {
+    /* width: 95%; */
+    font-family: 'Tajawal', sans-serif;
+    font-size: 23px;
+    padding-top: .6rem;
+    text-align: justify;
+    text-justify: inter-word;
+    padding-left: 1rem;
+    line-height: 2rem;
+    margin-left: 22%;
+    margin-top: 6rem;
+}
+
 .wrap-text-center {
     width: 55%;
     font-family: 'Tajawal', sans-serif;
@@ -68,6 +81,15 @@ h6 {
 
 .project-width {
     width: 500px;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.wyfy-project-width {
+    margin-top: 3rem;
+    width: 60%;
     padding-right: 2rem;
     padding-left: 2rem;
     text-align: justify;
@@ -107,6 +129,14 @@ h6 {
     border-radius: 20px;
     margin-top: 2rem;
   }
+
+  .wyfy-image {
+      float: left;
+      max-width: 100px;
+      min-width: 200px;
+      /* border-radius: 20px; */
+      margin-top: 2rem;
+    }
 
 .presentation {
     width: 410px;

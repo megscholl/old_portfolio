@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Reso from './Reso';
 import Tend from './Tend';
 import JsPortfolio from './Portfolio';
+import Wyfy from './Wyfy';
 
 class DevDesign extends Component {
     render() {
@@ -12,6 +13,7 @@ class DevDesign extends Component {
               <Reso />
               <Tend />
               <JsPortfolio />
+              <Wyfy />
             </center>
 
           </div>
