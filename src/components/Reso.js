@@ -11,7 +11,7 @@ class Reso extends Component {
 
                 <ResoTechs />
                 <p className="wrap-text"><span className="drop-cap">C</span>reate, read, update and delete reservations to your favorite restaurants with <strong>Reso</strong>.
-                </p>
+                To see the GitHub for this project, <a href="https://github.com/megscholl/reso" alt="github page for meg scholl's reso" title="github page for meg scholl's reso" target="_blank" rel="noopener noreferrer" className="links">click here.</a></p>
 
             </div>
         )
