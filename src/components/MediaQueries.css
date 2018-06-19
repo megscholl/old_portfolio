@@ -261,6 +261,30 @@
         text-align: left;
         /* text-indent: 2rem; */
     }
+
+
+    .wyfy-project-width {
+        margin-top: 2rem;
+        width: 60%;
+        padding-right: 2rem;
+        padding-left: 2rem;
+        /* text-align: justify;
+        text-justify: inter-word; */
+    }
+
+    .wrap-wyfy-text {
+        /* width: 95%; */
+        font-family: 'Tajawal', sans-serif;
+        font-size: 23px;
+        padding-top: .6rem;
+        text-align: justify;
+        text-justify: inter-word;
+        padding-left: 1rem;
+        line-height: 2rem;
+        margin-left: 22%;
+        margin-top: 2rem;
+    }
+
     
     .about-columns {
         column-count: 1;

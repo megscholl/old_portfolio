@@ -1,7 +1,9 @@
 
 .portfolio-width {
-    width: 85%;
+    width: 100%;
     margin-top: 2rem;
+    padding: 5%;
+    background-color: rgb(251, 210, 215, .2);
     /* text-indent: 2rem; */
     /* padding-right: 2rem;
     padding-left: 2rem; */
