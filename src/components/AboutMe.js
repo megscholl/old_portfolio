@@ -8,11 +8,11 @@ class AboutMe extends Component {
     render() {
         return(
             <div id="about" className="wrap-text-center">
-            <h5 className="header-center-less">about this little unicorn</h5>
+            <h5 className="header-center-less">get to know me!</h5>
 
-               <p>Raised in the colorful fall's outside of Boston, MA, I vowed to bring beauty and simplicity to the world around me. I just so happen to live in the great era of technology.
+               <p>Raised in the colorful seasons of Massachusetts, I vowed to bring beauty and simplicity to the world around me. 
                <br /><br />
-                I love developing applications that are worth every day use, such as a budget tracker or a table reservation system.
+                I'm interested in developing applications that are worth every day use, such as a budget tracker or a table reservation system.
                 <br /><br />
                 I believe that Design is not just “making it pretty”, and Developers don’t need to hear phrases like “it’s just a button”.
                </p>
