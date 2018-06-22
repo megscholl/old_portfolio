@@ -82,7 +82,7 @@ h6 {
 .project-width {
     width: 500px;
     padding-right: 2rem;
-    padding-left: 2rem;
+    /* padding-left: 2rem; */
     text-align: justify;
     text-justify: inter-word;
 }
@@ -153,11 +153,17 @@ h6 {
     font-size: 23px;
 }
 
+.flexbox-container-1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-right: 5%;
+}
 .flexbox-container {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    /* margin-left: 10%; */
+    /* margin-right: 5%; */
 }
 
 .zoom {

@@ -13,9 +13,10 @@ class DevDesign extends Component {
           <div id="designdev" className="top-margin">
             <h5 className="header-center" id="designdev">projects I've been working on...</h5>
             <center className="flexbox-container">
-            <br/>
+           
               <Reso />
               <Tend />
+              
               <JsPortfolio />
               <Wyfy />
               
