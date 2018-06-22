@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Tajawal:200');
+
+    
+.bears-h1 {
+    font-family: 'Tajawal', sans-serif;
+    font-size: 30px;
+    color: #222;
+    text-align: center;
+    padding-bottom: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.wrap-bears-text {
+    width: 75%;
+    columns: 2;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 23px;
+    padding-top: .6rem;
+    text-align: justify;
+    text-justify: inter-word;
+    padding-left: 1rem;
+    line-height: 2rem;
+    /* margin-left: 22%; */
+}
+
+.process-img {
+    width: 55%;
+}
+
+.process-container {
+    display: flexbox;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.right {
+    margin-left: 5%;
+}
+
+/* .right-content {
+    float: right;
+}
+
+.left-content {
+    float: left;
+} */
+
+.container {
+    display: block;
+    margin: 0 10% 10% 10%;
+    display: flexbox;
+    flex-flow: row wrap;
+    width: 100%;
+    /* margin: 12%; */
+    /* background-color: rgb(251, 210, 215, .2); */
+}
+
+.bears-layout {
+    /* width: 100%; */
+    background-color: white;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 0%;
+    /* background-color: rgb(251, 210, 215, .0); */
+}
+
+/* .content-top {
+    padding-top: 5%;
+    font-size: 18px;
+} */
+
+
+.bears-image {
+    width: 65%;
+    cursor: pointer;
+    /* padding-bottom: 1% !important; */
+}
+
+.bears-container {
+    overflow: hidden;
+    width: 100%;
+    background-color: rgb(251, 210, 215, .2);
+    /* padding-bottom: 1%; */
+}
+
+
+.bears-project-width {
+    width: 50%;
+    margin-top: 3rem;
+    text-align: justify;
+    text-justify: inter-word;
+    text-align: center;
+}
