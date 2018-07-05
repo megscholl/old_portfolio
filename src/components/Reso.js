@@ -4,6 +4,8 @@ import ResoTechs from './ResoTech';
 import './DevDesign.css';
 
 class Reso extends Component {
+
+
     render() {
         return(
             <div className="project-width">
