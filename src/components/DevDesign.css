@@ -25,6 +25,7 @@ h6 {
 
 .header-center-less {
     color: #222;
+    /* font-size: 16px; */
     text-align: center;
     padding-bottom: 1rem;
     margin-top: 5rem;
@@ -35,6 +36,10 @@ h6 {
     font-size: 18px;
     float: left;
     text-indent: .5rem;
+  }
+
+  .resume-section {
+      padding-top: 2rem;
   }
 
 .wrap-text{
@@ -69,15 +74,10 @@ h6 {
     margin-right: auto;
     margin-left: auto;
     text-align: left;
+    columns: 2;
+    column-gap: 100px;
     /* text-indent: 2rem; */
 }
-
-/* .drop-cap {
-    float: left;
-    width: 0.7em;
-    font-size: 150%;
-    line-height: 95%;
-} */
 
 .project-width {
     width: 500px;
@@ -139,14 +139,6 @@ h6 {
       margin-top: 2rem;
     }
 
-.presentation {
-    width: 410px;
-    height: 260px;
-}
-
-.pinboard {
-    margin-top: 13rem;
-}
 
 .center {
     text-align: right;
