@@ -8,7 +8,7 @@ class AboutMe extends Component {
     render() {
         return(
             <div id="about" className="wrap-text-center">
-            <h5 className="header-center-less">get to know me!</h5>
+            <h5 className="header-center-less">about me</h5>
 
                <p>Raised in the colorful seasons of Massachusetts, I vowed to bring beauty and simplicity to the world around me. 
                <br /><br />
@@ -17,7 +17,7 @@ class AboutMe extends Component {
                 I believe that Design is not just “making it pretty”, and Developers don’t need to hear phrases like “it’s just a button”.
                </p>
 
-               <Resume />
+               <div className="resume-section"><Resume /></div>
                
                {/*<Company />*/}
         </div>
