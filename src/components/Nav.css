@@ -2,7 +2,7 @@
 
 
 #bottom-nav {
-    /* position:absolute; */
+    position:relative;
     bottom:0;
     max-width: 75%;
     margin-left: auto;
