@@ -10,11 +10,11 @@ class AboutMe extends Component {
             <div id="about" className="wrap-text-center">
             <h5 className="header-center-less">about me</h5>
 
-               <p>Raised in the colorful seasons of Massachusetts, I vowed to bring beauty and simplicity to the world around me. 
+               <p>With experience in everything between hospitality, to photography, to city planning, to volunteer management, I've developed a love for curiosity and exploring new trades. 
                <br /><br />
-                I'm interested in developing applications that are worth every day use, such as a budget tracker or a table reservation system.
+               User Experience Design is an incredible use of any developers time, as their audiences' interest is the main focus of design.
                 <br /><br />
-                I believe that Design is not just “making it pretty”, and Developers don’t need to hear phrases like “it’s just a button”.
+               Freelance and remote work are my current priorities as a Web Designer. 
                </p>
 
                <div className="resume-section"><Resume /></div>
