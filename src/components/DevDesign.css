@@ -195,14 +195,6 @@ h6 {
     float: left;
 }
 
-.links:hover,
-.project-links:hover {
-    cursor: pointer;
-    color: #FBD2D7;
-    font-weight: bolder;
-}
-
-
 .coming-soon {
     padding-top: .5rem;
     color: #FBD2D7;
