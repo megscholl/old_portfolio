@@ -1,23 +1,18 @@
 import React, { Component } from 'react';
 
 import './Routes.css'
-import Name from '../Name.js'
-import {NavLink} from 'react-router-dom'
+// import Name from '../Name.js'
+// import {NavLink} from 'react-router-dom'
 import TM from './tawanna/tm.png'
 
 
 class Dev extends Component {
     render() {
         return( 
-            <div>
-                <div className="App">
-                    <NavLink to="/" exact className="home-link"><Name name="meg scholl" /></NavLink>
-                </div>
-
-                <h1 className="about-me routes-h1">front-end development</h1>
-
+            <div class="section-padding">
+            <hr width="45%"/>
+                <h1 className="cursive-header">front-end development</h1>
                 
-                {/* HOVER IMAGES */}
                 <center>
                     <div id="redhood">
                         

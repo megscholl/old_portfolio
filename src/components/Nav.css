@@ -10,6 +10,9 @@
     background: white;
 }
 
+.navbar {
+    padding: 0 3rem;
+}
 
 .links {
     color: rgb(92, 3, 62);
@@ -39,8 +42,23 @@
     letter-spacing: 3px;
 }
 
-.redhood-link:hover {
-    cursor: pointer;
+.cursive-header {
+    font-family: 'Nothing You Could Do', cursive;
+    /* color: rgb(92, 3, 62); */
     color:  rgb(204, 64, 157);
+    text-decoration: none;
+    font-size: 26px;
+    letter-spacing: 3px;
+    padding-top: 5%;
+    text-align: center;
+}
+
+.redhood-link:hover {
+    color:  rgb(204, 64, 157);
+    cursor: pointer;
     font-weight: bold;
+}
+
+.section-padding {
+    padding-top: 5%;
 }
