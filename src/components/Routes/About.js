@@ -4,6 +4,7 @@ import './Routes.css'
 import Name from '../Name.js'
 import {NavLink} from 'react-router-dom'
 import Meg from './meg.jpg.png'
+import Nav from './../Nav'
 
 
 
@@ -11,10 +12,11 @@ class About extends Component {
     render() {
         return(
             <div>
-                <div className="App">
+            <Nav />
+                <div className="App App-header2">
                     <NavLink to="/" exact className="home-link"><Name name="meg scholl" /></NavLink>
                 </div>
-                <h1 className="about-me routes-h1">about me</h1>
+                <h1 className="cursive-header" center>about me</h1>
                 <div className="grey-content">
 
                     <img src={Meg} alt="meg scholl" className="selfie"/>
@@ -24,7 +26,7 @@ class About extends Component {
 
                 </div>
 
-                <h1 className="about-me routes-h1">connect with me</h1>
+                <h1 className="cursive-header">connect with me</h1>
                 <div className="grey-content">
                 
                     <ul>
