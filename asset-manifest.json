@@ -1,14 +1,16 @@
 {
-  "main.css": "static/css/main.bc18927d.css",
-  "main.css.map": "static/css/main.bc18927d.css.map",
-  "main.js": "static/js/main.d47b6f72.js",
-  "main.js.map": "static/js/main.d47b6f72.js.map",
+  "main.css": "static/css/main.a3af0ff9.css",
+  "main.css.map": "static/css/main.a3af0ff9.css.map",
+  "main.js": "static/js/main.d5206c1d.js",
+  "main.js.map": "static/js/main.d5206c1d.js.map",
+  "static\\media\\ch_statement.PNG": "static/media/ch_statement.0ed81b67.PNG",
   "static\\media\\email.png": "static/media/email.5c1ddca6.png",
   "static\\media\\github.png": "static/media/github.3480db5e.png",
   "static\\media\\linkedin.png": "static/media/linkedin.821cef1b.png",
-  "static\\media\\logo-png.png": "static/media/logo-png.3dd171ee.png",
   "static\\media\\meg.jpg.png": "static/media/meg.jpg.523c14ce.png",
   "static\\media\\mesnap.jpg": "static/media/mesnap.eab30a26.jpg",
   "static\\media\\mountains.jpg": "static/media/mountains.58141c76.jpg",
+  "static\\media\\persona.PNG": "static/media/persona.6fbade82.PNG",
+  "static\\media\\prototype.PNG": "static/media/prototype.a4c6e9b8.PNG",
   "static\\media\\ww_logo.png": "static/media/ww_logo.94aa4746.png"
 }
