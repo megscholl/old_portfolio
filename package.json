@@ -26,5 +26,17 @@
     "gh-pages": "^1.1.0",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

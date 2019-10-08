@@ -3,6 +3,7 @@
 ### based out of nashville and willing to relocate
 
 this site is built with react.js. in order to download and see my work, please `npm install`
+to build the site, use command `npm deploy`
 
 #### about me
 1. you'll see a banner with my image and title, but i'm currently seeking employment. 

@@ -19,8 +19,9 @@ class About extends Component {
                 <h1 className="cursive-header" center>about me</h1>
                 <div className="grey-content">
 
-                    <img src={Meg} alt="meg scholl" className="selfie"/>
-                    <p><strong> title: </strong> ux designer &amp; front-end developer<br /> <strong>education: </strong>nashville software school, westfield state university<br /> <strong>current city:</strong> Nashville. TN, *willing to relocate</p>
+                    <img src={Meg} alt="meg scholl" className="selfie d-block d-md-none"/>
+                    <p><strong> title: </strong> marketing web developer<br />
+                    <strong>education: </strong>nashville software school, westfield state university<br /> <strong>current city:</strong> Nashville. TN, *willing to relocate</p>
                     <p><strong>favorite quote: </strong> "I love all the places I ain't ever been to" - the head and the heart <br />
                     <strong>favorite places to visit: </strong> denver, boston, seattle<br /><strong>hobbies &amp; interests: </strong> hiking, podcasts, severe weather, true crime<br /> <strong>top emojis:</strong> 🤗🤷😂 <br /></p>
 
